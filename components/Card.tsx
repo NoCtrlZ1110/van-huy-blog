@@ -1,6 +1,9 @@
 import Image from './Image'
 import Link from './Link'
 
+const WIDTH = 544
+const HEIGHT = 408
+
 const Card = ({ title, description, imgSrc, href }) => (
   <div className="md max-w-[544px] p-4 md:w-1/2">
     <div
@@ -14,18 +17,18 @@ const Card = ({ title, description, imgSrc, href }) => (
             <Image
               alt={title}
               src={imgSrc}
-              className="object-cover object-center md:h-36 lg:h-48"
-              width={544}
-              height={306}
+              className="lg:h-100 object-cover object-top md:h-56"
+              width={WIDTH}
+              height={HEIGHT}
             />
           </Link>
         ) : (
           <Image
             alt={title}
             src={imgSrc}
-            className="object-cover object-center md:h-36 lg:h-48"
-            width={544}
-            height={306}
+            className="object-cover object-top md:h-36 lg:h-56"
+            width={WIDTH}
+            height={HEIGHT}
           />
         ))}
       <div className="p-6">
