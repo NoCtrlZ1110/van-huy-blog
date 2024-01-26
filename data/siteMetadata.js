@@ -3,10 +3,12 @@ const siteMetadata = {
   title: "Văn Huy's Blog",
   author: 'Nguyễn Văn Huy',
   headerTitle: "Văn Huy's Blog ",
-  description: 'My personal blog which I write about my life, my work and my hobbies.',
+  description:
+    'My personal blog which I write about technical sharing, tutorials, my life, my work and my hobbies.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://vanhuy.dev/',
+  siteUrl: 'https://vanhuy.dev',
+  portfolioSiteUrl: 'https://portfolio.vanhuy.dev',
   siteRepo: 'https://github.com/NoCtrlZ1110/van-huy-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',

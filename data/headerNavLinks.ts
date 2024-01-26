@@ -1,6 +1,6 @@
 const headerNavLinks = [
   { href: '/', title: 'Home' },
-  { href: '/portfolio', title: 'Portfolio' },
+  { href: 'https://portfolio.vanhuy.dev', title: 'Portfolio' },
   { href: '/blog', title: 'Blog' },
   { href: '/tags', title: 'Tags' },
   { href: '/projects', title: 'Projects' },
