@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="flex flex-wrap items-center justify-between md:pb-10 md:pt-8 lg:pb-20 lg:pt-14">
       <div>
-        <div>Software Developer</div>
+        <div>Software Engineer</div>
         <h1 className="my-5 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Hi, I'm Nguyễn Văn Huy!
         </h1>
