@@ -5,8 +5,11 @@ import React from 'react'
 
 const Hero = () => {
   const portfolioSiteUrl = siteMetadata.portfolioSiteUrl
+  const AVATAR_IMAGE =
+    'https://lh3.googleusercontent.com/6drPIkvzfqMDBU1P5gZVqzykcSJxTmyrqQ_nAsAvVquT8Z6bZFQr3DKoY_XX0b99VAcwbfjvKc_REh0R5Eh7hIYDlwAq-D4z=rw-w400'
+
   return (
-    <section className="flex flex-wrap items-center justify-between md:pb-10 md:pt-8 lg:pb-20 lg:pt-14">
+    <section className="flex flex-wrap items-center justify-between gap-4 md:pb-10 md:pt-8 lg:pb-20 lg:pt-14 ">
       <div>
         <div>Software Engineer</div>
         <h1 className="my-5 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
@@ -31,8 +34,8 @@ const Hero = () => {
         </div>
       </div>
       <Image
-        className="my-10 rounded-full sm:mt-4"
-        src="/static/images/avatar.webp"
+        className="rounded-full"
+        src={AVATAR_IMAGE}
         alt="my-avatar"
         width={200}
         height={200}
