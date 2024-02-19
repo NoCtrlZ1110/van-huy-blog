@@ -36,6 +36,7 @@ const Hero = () => {
         alt="my-avatar"
         width={200}
         height={200}
+        priority
       />
     </section>
   )
