@@ -5,6 +5,9 @@ import React from 'react'
 
 const Hero = () => {
   const portfolioSiteUrl = siteMetadata.portfolioSiteUrl
+  const resumeUrl =
+    siteMetadata?.resume?.url || `${portfolioSiteUrl}/assets/resume/Nguyen_Van_Huy_CV.pdf`
+
   const AVATAR_IMAGE =
     'https://lh3.googleusercontent.com/6drPIkvzfqMDBU1P5gZVqzykcSJxTmyrqQ_nAsAvVquT8Z6bZFQr3DKoY_XX0b99VAcwbfjvKc_REh0R5Eh7hIYDlwAq-D4z=rw-w400'
 
@@ -26,7 +29,7 @@ const Hero = () => {
               openPortfolio()
             </button>
           </a>
-          <a href={`${portfolioSiteUrl}/assets/resume/Nguyen_Van_Huy_CV.pdf`} target="_blank">
+          <a href={resumeUrl} target="_blank">
             <button className="mt-5 rounded-md border border-gray-800 bg-transparent px-4 py-2 hover:border-transparent hover:bg-blue-400 hover:text-white dark:text-white">
               getResume()
             </button>

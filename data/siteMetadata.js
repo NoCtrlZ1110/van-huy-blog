@@ -90,6 +90,9 @@ const siteMetadata = {
     //   indexName: 'docsearch',
     // },
   },
+  resume: {
+    url: '/static/resume/NguyenVanHuy.pdf',
+  },
 }
 
 module.exports = siteMetadata
