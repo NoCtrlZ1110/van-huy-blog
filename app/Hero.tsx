@@ -35,6 +35,13 @@ const Hero = () => {
             </button>
           </a>
         </div>
+        <div>
+          <a href="https://youtube.vanhuy.dev" target="_blank">
+            <button className="mt-5 rounded-md border bg-red-400 bg-transparent px-4 py-2 text-white hover:border-transparent hover:bg-red-500  dark:text-white">
+              goToYoutubeChannel()
+            </button>
+          </a>
+        </div>
       </div>
       <Image
         className="rounded-full"
