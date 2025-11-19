@@ -23,8 +23,8 @@ const Hero = () => {
           <span className="mb-2 text-gray-400">// let's do the right thing!</span>
         </div>
 
-        <div>
-          <a className="mr-4" href={portfolioSiteUrl} target="_blank">
+        <div className="flex gap-4">
+          <a href={portfolioSiteUrl} target="_blank">
             <button className="mt-5 rounded-md  bg-gray-900 px-4 py-2 text-white hover:bg-gray-800 hover:bg-green-400 dark:border dark:border-gray-800 dark:bg-transparent dark:hover:bg-green-400">
               openPortfolio()
             </button>
@@ -34,11 +34,9 @@ const Hero = () => {
               getResume()
             </button>
           </a>
-        </div>
-        <div>
           <a href="https://youtube.vanhuy.dev" target="_blank">
             <button className="mt-5 rounded-md border bg-red-400 px-4 py-2 text-white hover:border-transparent hover:bg-red-500  dark:text-white">
-              goToYoutubeChannel()
+              subscribe()
             </button>
           </a>
         </div>
