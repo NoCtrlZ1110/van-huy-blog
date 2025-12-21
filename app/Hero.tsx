@@ -24,18 +24,13 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-4">
-          <a href={portfolioSiteUrl} target="_blank">
-            <button className="mt-5 rounded-md  bg-gray-900 px-4 py-2 text-white hover:bg-gray-800 hover:bg-green-400 dark:border dark:border-gray-800 dark:bg-transparent dark:hover:bg-green-400">
-              openPortfolio()
-            </button>
-          </a>
           <a href={resumeUrl} target="_blank">
-            <button className="mt-5 rounded-md border border-gray-800 bg-transparent px-4 py-2 hover:border-transparent hover:bg-blue-400 hover:text-white dark:text-white">
+            <button className="mt-5 rounded-md bg-gradient-to-r from-cyan-400 to-blue-500 px-4 py-2 text-white transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-1 hover:from-cyan-400 hover:to-blue-500 hover:shadow-xl hover:shadow-cyan-400/60 dark:from-cyan-600 dark:to-blue-700 dark:hover:from-cyan-400 dark:hover:to-blue-500 dark:hover:shadow-xl dark:hover:shadow-cyan-400/50">
               getResume()
             </button>
           </a>
           <a href="https://youtube.vanhuy.dev" target="_blank">
-            <button className="mt-5 rounded-md border bg-red-400 px-4 py-2 text-white hover:border-transparent hover:bg-red-500  dark:text-white">
+            <button className="mt-5 rounded-md border-2 border-red-400 bg-gradient-to-r from-red-500/10 to-pink-500/10 px-4 py-2 text-red-400 transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-1 hover:border-transparent hover:bg-gradient-to-r hover:from-red-400 hover:to-pink-500 hover:text-white hover:shadow-xl hover:shadow-red-400/60 dark:border-red-500 dark:from-red-500/20 dark:to-pink-500/20 dark:text-red-300 dark:hover:from-red-400 dark:hover:to-pink-500 dark:hover:text-white dark:hover:shadow-xl dark:hover:shadow-red-400/50">
               subscribe()
             </button>
           </a>
